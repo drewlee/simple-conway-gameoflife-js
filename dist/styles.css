@@ -1,0 +1,24 @@
+#world {
+  display: table;
+}
+.row {
+  display: table-row;
+}
+.cell {
+  display: table-cell;
+  width: 8px;
+  height: 8px;
+  background-color: #EEE;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #333;
+}
+.cell:first-child {
+  border-left-width: 1px;
+}
+.row:first-child .cell {
+  border-top-width: 1px;
+}
+.cell.live {
+  background-color: #F00;
+}
