@@ -1,7 +1,11 @@
 {
   "name": "simple-conway-gameoflife-js",
   "version": "1.0.0",
-  "description": "Basic JavaScript implementation of Conway's Game of Life. Runs in the browser.",
+  "description": "Basic JavaScript implementation of Conway's Game of Life that runs in the browser.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drewlee/simple-conway-gameoflife-js"
+  },
   "scripts": {
     "start": "webpack-dev-server --open",
     "build": "webpack",
